@@ -17,7 +17,7 @@ def login(username, proxy):
                'Content-Length':'64'}
     values = {'op': 'login',
               'user': username,
-              'passwd':'ruansean',
+              'passwd':'(password)',
               'rem':'yes',
               'api_type':'json'}
     proxies = {
